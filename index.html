@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HS PRIME</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styler.css">
+    <title>HS Prime</title>
+</head>
+<body>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header id="top-header">
+    <a href="../trabalho de inteface/sobrenós.html"></a><img src="img/logoprime.png" alt="Logo HS Prime" class="logo">
+    <h1>HS Prime</h1>
+    <nav class="top-nav">
+      <a href="../trabalho de inteface/index.html">Incio</a>
+      <a href="../trabalho de inteface/sobrenós.html">Sobre Nós</a>
+      <a href="../trabalho de inteface/projetos.html">Projetos</a>
+      <a href="../trabalho de inteface/seriviços.html">Serviços</a>
+      <a href="../trabalho de inteface/contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Banner Principal -->
+  <section class="banner">
+    <p><strong>Transformamos ideias em soluções.</strong> Conheça nossos projetos! <a href="#projetos">Saiba Mais</a></p>
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projetos" class="container mt-5">
+    <h2>Projetos Destaque</h2>
+    <div class="projetos-grid">
+     <div class="container mt-5">
+<div class="projetos-container">
+    <div class="projeto">
+        <img src="img/Sistema de Gestão Empresarial.jpg" alt="💼 Sistema de Gestão Empresarial">
+        <p>Implementamos uma solução ERP para otimizar processos e aumentar a eficiência operacional.</p>
+    </div>
+    <div class="projeto">
+        <img src="img/Desenvolvimento de Plataforma.png" alt="🌐 Desenvolvimento de Plataforma">
+        <p>Criamos uma plataforma personalizada, sob medida para as necessidades do seu setor.</p>
+    </div>
+    <div class="projeto">
+        <img src="img/Aplicativo de Produtividade.jpg" alt="📱 Aplicativo de Produtividade">
+        <p>Desenvolvemos um app para o setor financeiro e para melhorar a organização pessoal.</p>
+    </div>
+</div>
+  </section>
+
+  <!-- Seção Serviços -->
+  <section id="servicos" class="container mt-5">
+    <h2>Nossos Serviços</h2>
+    <div class="accordion" id="accordionServicos">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#consultoria">
+            Consultoria Empresarial
+          </button>
+        </h2>
+        <div id="consultoria" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Estratégias personalizadas para transformar negócios e maximizar resultados.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#desenvolvimento">
+            Desenvolvimento de Software
+          </button>
+        </h2>
+        <div id="desenvolvimento" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Criamos soluções tecnológicas inovadoras para impulsionar empresas.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Depoimentos -->
+  <section id="depoimentos" class="container mt-5">
+  <h2 class="text-center mb-4">O que dizem sobre nós</h2>
+
+  <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Depoimento 1 -->
+      <div class="carousel-item active text-center">
+        <img 
+          src="img/jovem-barbudo-com-camisa-listrada.jpg" 
+          class="d-block mx-auto img-fluid rounded mb-3" 
+          alt="Cliente satisfeito"
+          style="max-width: 200px;"
+        >
+        <p class="fw-semibold">"A HS Prime nos ajudou a alcançar novos níveis de eficiência!"</p>
+        <small class="text-muted">— Marcos Silva, Cliente</small>
+      </div>
+
+      <!-- Depoimento 2 -->
+      <div class="carousel-item text-center">
+        <img 
+          src="img/mulher-jovem-e-bonita-em-sueter-rosa-quente-aparencia-natural-sorridente-retrato-ligado-isolado-cabelo-comprido.jpg" 
+          class="d-block mx-auto img-fluid rounded mb-3" 
+          alt="Feedback positivo"
+          style="max-width: 200px;"
+        >
+        <p class="fw-semibold">"Excelência e inovação em cada projeto. Recomendo!"</p>
+        <small class="text-muted">— Ana Oliveira, Cliente</small>
+      </div>
+
+    </div>
+
+    <!-- Controles do carrossel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+</section>
+
+
+    <!-- Controles do carrossel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+</section>
+
+
+
+  
+  
+  
+  
+  <!-- Rodapé -->
+  <footer class="container mt-5 text-center">
+    <p>© 2025 HS Prime | Soluções Empresariais</p>
+    <div class="social-icons">
+      <a href="vendor/icons/facebook.svg"><i class="fab fa-facebook-f"></i></a>
+      <a href="vendor/icons/instagram (1).svg"><i class="fab fa-instagram"></i></a>
+      <a href="vendor/icons/whatsapp.svg"><i class="fab fa-whatsapp"></i></a>
+      <a href="vendor/icons/youtube.svg"><i class="fab fa-youtube"></i></a>
+    </div>
+    
+  </section>
+  </footer>s
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+</body>
+</html>
